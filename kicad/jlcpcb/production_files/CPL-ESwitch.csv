@@ -1,0 +1,16 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1u,C_0805_2012Metric,198.8,-95.0,0.0,top
+C2,68nF,C_0805_2012Metric,192.4,-89.2,180.0,top
+J1,XT90PW-F,AMASS_XT90PW-F,171.5,-73.55,-90.0,top
+J2,XT90PW-M,AMASS_XT90PW-M,214.95,-73.55,90.0,top
+J3,Conn_01x02_Pin,PinHeader_1x02_P2.00mm_Vertical,189.0,-93.4,180.0,top
+J4,Conn_01x03_Socket,PinSocket_1x03_P2.00mm_Vertical,182.2,-88.4,90.0,top
+Q1,DMTH8003SPS-13,PowerDI5060-8 (Type K),189.471,-81.159,90.0,top
+R1,R,R_0805_2012Metric,203.4,-92.8,180.0,top
+R2,R,R_0805_2012Metric,203.4,-90.8,0.0,top
+R3,R,R_0805_2012Metric,203.4,-86.8,180.0,top
+R4,R,R_0805_2012Metric,203.4,-88.8,0.0,top
+R6,75k,R_0805_2012Metric,203.4,-95.0,180.0,top
+R7,10k,R_0805_2012Metric,192.4,-91.2,0.0,top
+SW1,MSK12C02,MSK12C02,182.95,-93.077,0.0,top
+U1,LM5060,MSOP-10_3x3mm_P0.5mm,198.2,-92.0,180.0,top

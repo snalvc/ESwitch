@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/aux/repos/ESwitch/kicad/ESwitch.kicad_sch</source>
+    <date>Mon 04 Mar 2024 09:21:28 CST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESwitch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c05ade38-edbe-4838-9b51-5534a91e382d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>68nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>394739e5-3539-4808-9a9e-bc323649746d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>XT90PW-F</value>
+      <footprint>XT90PW-F:AMASS_XT90PW-F</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=eda</field>
+        <field name="Description">
+Socket, DC supply, XT90, female, PIN:2, on PCBs, THT
+</field>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.3 mm</field>
+        <field name="MF">AMASS</field>
+        <field name="MP">XT90PW-F</field>
+        <field name="PARTREV">V00</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="XT90PW-F" part="XT90PW-F" description=""/>
+      <property name="MF" value="AMASS"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.3 mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V00"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=snap"/>
+      <property name="MP" value="XT90PW-F"/>
+      <property name="Description" value="&#xA;Socket, DC supply, XT90, female, PIN:2, on PCBs, THT&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92569202-bab6-4eae-9138-54bba3d0b0c1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>XT90PW-M</value>
+      <footprint>XT90PW-M:AMASS_XT90PW-M</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda</field>
+        <field name="Description">
+Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow
+</field>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HIEGHT">10.3mm</field>
+        <field name="MF">AMASS</field>
+        <field name="MP">XT90PW-M</field>
+        <field name="PARTREV">V00</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="XT90PW-M" part="XT90PW-M" description=""/>
+      <property name="MF" value="AMASS"/>
+      <property name="Description" value="&#xA;Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow&#xA;"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"/>
+      <property name="MAXIMUM_PACKAGE_HIEGHT" value="10.3mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V00"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"/>
+      <property name="MP" value="XT90PW-M"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a25420d9-5b73-4698-85ae-9adb2f73f1fa</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50283929-b43b-4b7a-8be7-6615db0aa384</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70f4d27-44e4-4368-8fb8-3234aa12fc51</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29e322f0-f7d9-4a64-944a-0a6fe7500bb4</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ffea6c1-3fb6-45a1-9204-16b9a8fcf0b7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMTH8003SPS-13</value>
+      <footprint>Components:PowerDI5060-8 (Type K)</footprint>
+      <libsource lib="Component" part="DMTH8003SPS-13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88446fa2-42cc-4047-9802-ad719b105f79</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b153aeb4-4f66-420c-88f2-ba6c67c70456</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>30k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab6d06f3-4016-4951-ac15-9019a5722696</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58de0d67-8e7c-4270-a332-c36c64367a67</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66879b96-f11c-459a-b1a0-089d651f893d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>75k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9dff8dc-92be-4b7b-84dc-21774599ac5f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b91e0d72-4780-411b-b6dd-7811141c7a59</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>MSK12C02</value>
+      <footprint>LIB_MSK12C02:MSK12C02</footprint>
+      <libsource lib="MSK12C02" part="MSK12C02" description="Switch, single pole double throw (SPDT)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw (SPDT)"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57aa569e-47ca-4e91-98a5-6222244d1536</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM5060</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm5060.pdf</datasheet>
+      <libsource lib="Power_Management" part="LM5060" description="High side protection controller, +5.5V to +65V operation, VSSOP-10 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESwitch.kicad_sch"/>
+      <property name="ki_description" value="High side protection controller, +5.5V to +65V operation, VSSOP-10 package"/>
+      <property name="ki_keywords" value="high-voltage mosfet-driver hot-swap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f492f2da-a706-402f-8caf-07ba0d44c9a9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Component" part="DMTH8003SPS-13">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMTH8003SPS-13</field>
+        <field name="Footprint">Components:PowerDI5060-8 (Type K)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSK12C02" part="MSK12C02">
+      <description>Switch, single pole double throw (SPDT)</description>
+      <footprints>
+        <fp>MSK12C02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW?</field>
+        <field name="Value">MSK12C02</field>
+        <field name="Footprint">LIB_MSK12C02:MSK12C02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="LM5060">
+      <description>High side protection controller, +5.5V to +65V operation, VSSOP-10 package</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm5060.pdf</docs>
+      <footprints>
+        <fp>*SOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM5060</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm5060.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="OVP" type="input"/>
+        <pin num="4" name="UVLO" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="TIMER" type="input"/>
+        <pin num="8" name="~{PGD}" type="open_collector"/>
+        <pin num="9" name="OUT" type="input"/>
+        <pin num="10" name="GATE" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="XT90PW-F" part="XT90PW-F">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT90PW-F</field>
+        <field name="Footprint">XT90PW-F:AMASS_XT90PW-F</field>
+        <field name="MF">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.3 mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V00</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT90PW-F/AMASS/view-part/?ref=snap</field>
+        <field name="MP">XT90PW-F</field>
+        <field name="Description">
+Socket, DC supply, XT90, female, PIN:2, on PCBs, THT
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">AMASS</field>
+      </fields>
+      <pins>
+        <pin num="N" name="NEG" type="passive"/>
+        <pin num="P" name="POS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="XT90PW-M" part="XT90PW-M">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT90PW-M</field>
+        <field name="Footprint">XT90PW-M:AMASS_XT90PW-M</field>
+        <field name="MF">AMASS</field>
+        <field name="Description">
+Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow
+</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda</field>
+        <field name="MAXIMUM_PACKAGE_HIEGHT">10.3mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V00</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap</field>
+        <field name="MP">XT90PW-M</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">AMASS</field>
+      </fields>
+      <pins>
+        <pin num="N" name="NEG" type="passive"/>
+        <pin num="P" name="POS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Component">
+      <uri>/mnt/aux/repos/ESwitch/kicad/Component.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/usr/share/kicad/symbols//Power_Management.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="P" pinfunction="POS" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="N" pinfunction="NEG" pintype="passive"/>
+      <node ref="J2" pin="N" pinfunction="NEG" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(J2-POS)">
+      <node ref="J2" pin="P" pinfunction="POS" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="OUT" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(J3-Pin_1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="~{PGD}" pintype="open_collector"/>
+    </net>
+    <net code="5" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(JP1-B)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(JP2-A)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(JP2-C)">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(Q1-G)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GATE" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(U1-OVP)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OVP" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U1-SENSE)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SENSE" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(U1-TIMER)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="TIMER" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U1-UVLO)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="UVLO" pintype="input"/>
+    </net>
+  </nets>
+</export>
