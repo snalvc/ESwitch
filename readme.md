@@ -11,7 +11,7 @@ This is a high-side N-channel MOSFET electrical switch module. The power MOSFET 
 
 ## TODO
 - [ ] Fix XT90 socket and plug polarity
-- [ ] Add LCSC part numbers into schematics
+- [x] Add LCSC part numbers into schematics
 - [ ] Add assemble instructions
 - [ ] Add test results
 
@@ -27,3 +27,7 @@ Fortunately, by chance, I made a mistake with the XT90 socket and plug. Conseque
 ![Schematics](./images/back.jpg)
 
 Not the prettiest welding nor photography, but it works. You get the idea of the bugs that canceled each other out. The XT90s were meant to be on the top side, but the polarity (socket and plug) was wrong. In order to get the polarity (socket, plug) right, the XT90s need to be positioned on the bottom side when swapped, which luckily achieved the desired outcome (leaving top traces for reinforcement).
+
+## Notes
+
+2024-03-13: I have a module that has become consistently conductive. Electrostatic discharge (ESD) is suspected as the cause, especially considering it was originally functioning properly.
